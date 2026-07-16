@@ -2,17 +2,16 @@
 
 ## Description
 
-This repository contains the implementation of a deep learning-based framework for automatic caption generation from multi-modal medical images. Two image captioning models were developed by combining ResNet with Long Short-Term Memory (LSTM) networks. The repository includes the code required to preprocess the data, train the models, and evaluate their performance.
+In this repository, we have provided an implementation of an auto-captioning system based on a deep learning approach for generating captions from multi-modal medical images. We have developed two different systems of image captioning that were made using the combination of ResNet architecture with LSTM networks.
 
 ## Dataset Information
 
 The experiments were conducted using the **ROCO (Radiology Objects in Context)** dataset.
 
-The dataset was downloaded from Kaggle and is publicly available at:
+The dataset was added from Kaggle and is publicly available at:
 
-https://www.kaggle.com/datasets
+(https://www.kaggle.com/datasets/virajbagal/roco-dataset/data)
 
-Please download the dataset from the original source before running the notebooks. The dataset is not included in this repository.
 
 ## Implemented Models
 
@@ -47,19 +46,19 @@ Install the required libraries before running the notebooks.
 ## Usage
 
 1. Download the ROCO dataset from Kaggle.
-2. Upload the dataset to your Kaggle workspace.
-3. Open the notebook for the desired model.
-4. Run all notebook cells sequentially.
-5. Evaluate the generated captions using the provided evaluation metrics.
+2. Load the ROCO dataset into your Kaggle environment.
+3. Load the notebook for the required model.
+4. Execute all the cells in the notebook in order.
+5. Assess the captions created through the evaluation metrics.
 
 ## Methodology
 
-The proposed framework consists of the following steps:
+The following steps comprise the suggested framework:
 
-1. Data preprocessing
-2. Feature extraction using ResNet50 or ResNet101
-3. Caption generation using an LSTM decoder
-4. Model evaluation using standard image captioning metrics
+1. Preprocessing of data
+2. Feature extraction through ResNet50 or ResNet101
+3. Caption creation with an LSTM decoder
+4. Evaluation of the model through common image captioning metrics
 
 ## Evaluation Metrics
 
@@ -71,4 +70,3 @@ The generated captions are evaluated using the following metrics:
 * BLEU-4
 * METEOR
 * ROUGE-L
-* CIDEr
