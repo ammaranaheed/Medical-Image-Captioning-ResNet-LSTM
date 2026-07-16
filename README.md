@@ -26,7 +26,7 @@ The following image captioning models are implemented:
 * Development Platform: Kaggle Notebook
 * Programming Language: Python
 * Deep Learning Framework: PyTorch
-* Environment: CPU
+* CPU
 
 ## Requirements
 
