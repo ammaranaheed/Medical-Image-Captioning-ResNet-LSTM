@@ -26,7 +26,7 @@ The following image captioning models are implemented:
 * Development Platform: Kaggle Notebook
 * Programming Language: Python
 * Deep Learning Framework: PyTorch
-* GPU: NVIDIA A100
+* Environment: CPU
 
 ## Requirements
 
@@ -38,8 +38,8 @@ The implementation requires the following Python libraries:
 * pandas
 * nltk
 * matplotlib
-* Pillow
 * tqdm
+* PIL
 
 Install the required libraries before running the notebooks.
 
